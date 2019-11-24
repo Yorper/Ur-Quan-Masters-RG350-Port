@@ -20,7 +20,7 @@
 
 /*==============================================================================
 
-  $Id$
+  $Id: mdriver.c 2412 2006-08-18 18:37:39Z avolkov $
 
   These routines are used to access the available soundcard drivers.
 
@@ -36,9 +36,7 @@
 
 #if defined unix || (defined __APPLE__ && defined __MACH__)
 #include <pwd.h>
-#include <unistd.h>
 #include <sys/stat.h>
-#include <sys/types.h>
 #endif
 
 #include <string.h>

@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_BUILD_H_
-#define UQM_BUILD_H_
+#ifndef _BUILD_H
+#define _BUILD_H
 
 #include "races.h"
 #include "displist.h"
@@ -60,5 +60,5 @@ extern RACE_DESC *load_ship (SPECIES_ID SpeciesID, BOOLEAN LoadBattleData);
 extern void free_ship (RACE_DESC *RaceDescPtr, BOOLEAN FreeIconData,
 		BOOLEAN FreeBattleData);
 
-#endif /* UQM_BUILD_H_ */
+#endif /* _BUILD_H */
 

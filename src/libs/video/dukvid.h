@@ -14,8 +14,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_VIDEO_DUKVID_H_
-#define LIBS_VIDEO_DUKVID_H_
+#ifndef _DUKVID_H
+#define _DUKVID_H
 
 #include "libs/video/videodec.h"
 
@@ -33,4 +33,4 @@ typedef enum
 	dukve_Other = -1000,
 } DukVid_Error;
 
-#endif // LIBS_VIDEO_DUKVID_H_
+#endif // _DUKVID_H

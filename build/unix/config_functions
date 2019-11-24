@@ -15,7 +15,7 @@
 # along with this program; if not, write to the Free Software
 #  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-BUILDLOG=/dev/null
+BUILDLOG=/tmp/buildlog
 TEMPFILE="/tmp/build.$$.tmp"
 #KEEPTEMPFILES=keeptempfiles
 
@@ -530,7 +530,10 @@ have_library() {
 	if [ -z "$TEMP_PRESENT" ]; then
 		TEMP_CFLAGS=`evalVar "LIB_${LIB}_CFLAGS"`
 		TEMP_LDFLAGS=`evalVar "LIB_${LIB}_LDFLAGS"`
-
+		
+		build_message "Trying to compile with SDL_image"
+		build_message "$CFLAGS $TEMP_CFLAGS $LDFLAGS $TEMP_LDFLAGS"
+		
 		try_compile_c "$CFLAGS $TEMP_CFLAGS" "$LDFLAGS $TEMP_LDFLAGS" << EOF
 int main(void) {
 	return 0;

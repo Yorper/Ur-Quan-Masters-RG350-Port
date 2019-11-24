@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_GRAPHICS_GFXINTRN_H_
-#define LIBS_GRAPHICS_GFXINTRN_H_
+#ifndef _GFXINTRN_H
+#define _GFXINTRN_H
 
 #include <stdio.h>
 #include <string.h>
@@ -28,5 +28,5 @@
 #include "drawable.h"
 #include "font.h"
 
-#endif /* LIBS_GRAPHICS_GFXINTRN_H_ */
+#endif /* _GFXINTRN_H */
 

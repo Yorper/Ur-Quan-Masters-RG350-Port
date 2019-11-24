@@ -20,7 +20,7 @@
 
 /*==============================================================================
 
-  $Id$
+  $Id: mloader.c 2412 2006-08-18 18:37:39Z avolkov $
 
   These routines are used to access the available module loaders
 

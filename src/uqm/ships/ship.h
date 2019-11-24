@@ -18,8 +18,8 @@
  * This file contains definitions that are common to all ship files.
  */
 
-#ifndef UQM_SHIPS_SHIP_H_
-#define UQM_SHIPS_SHIP_H_
+#ifndef _SHIP_H
+#define _SHIP_H
 
 #include "uqm/collide.h"
 
@@ -33,5 +33,5 @@
 #include "uqm/ship.h"
 
 
-#endif  /* UQM_SHIPS_SHIP_H_ */
+#endif  /* _SHIP_H */
 

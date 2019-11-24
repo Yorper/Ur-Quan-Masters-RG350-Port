@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef UIO_DEBUG_H
-#define UIO_DEBUG_H
+#ifndef _DEBUG_H
+#define DEBUG_H
 
 void uio_debugInteractive(FILE *in, FILE *out, FILE *err);
 

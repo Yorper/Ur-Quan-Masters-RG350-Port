@@ -14,8 +14,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef UQM_FLASH_H_
-#define UQM_FLASH_H_
+#ifndef _FLASH_H
+#define _FLASH_H
 
 /*
  * This code can draw three kinds of flashing areas.
@@ -211,5 +211,5 @@ void Flash_setCacheSize (FlashContext *context, COUNT size);
 COUNT Flash_getCacheSize (const FlashContext *context);
 
 
-#endif  /* UQM_FLASH_H_ */
+#endif  /* _FLASH_H */
 

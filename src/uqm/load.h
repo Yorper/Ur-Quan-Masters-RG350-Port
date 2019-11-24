@@ -14,8 +14,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef UQM_LOAD_H_
-#define UQM_LOAD_H_
+#ifndef _LOAD_H
+#define _LOAD_H
 
 #include "sis.h"
 		// for SUMMARY_DESC
@@ -27,5 +27,5 @@ extern ACTIVITY NextActivity;
 extern BOOLEAN LoadGame (COUNT which_game, SUMMARY_DESC *summary_desc);
 
 
-#endif  /* UQM_LOAD_H_ */
+#endif  /* _LOAD_H */
 

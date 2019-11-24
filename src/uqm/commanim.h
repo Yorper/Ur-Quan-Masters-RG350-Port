@@ -14,8 +14,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_COMMANIM_H_
-#define UQM_COMMANIM_H_
+#ifndef _COMMANIM_H
+#define _COMMANIM_H
 
 #include "libs/compiler.h"
 #include "libs/gfxlib.h"
@@ -130,6 +130,6 @@ extern BOOLEAN DrawAlienFrame (SEQUENCE *pSeq, COUNT Num, BOOLEAN fullRedraw);
 extern void InitCommAnimations (void);
 extern BOOLEAN ProcessCommAnimations (BOOLEAN fullRedraw, BOOLEAN paused);
 
-#endif  /* UQM_COMMANIM_H_ */
+#endif  /* _COMMANIM_H */
 
 

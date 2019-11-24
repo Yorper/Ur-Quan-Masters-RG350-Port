@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_DEMO_H_
-#define UQM_DEMO_H_
+#ifndef _DEMO_H
+#define _DEMO_H
 
 #ifndef DEMO_MODE
 #define DEMO_MODE 0
@@ -44,5 +44,5 @@ extern void JournalInput (INPUT_STATE InputState);
 
 #endif
 
-#endif /* UQM_DEMO_H_ */
+#endif /* _DEMO_H */
 

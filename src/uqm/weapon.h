@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_WEAPON_H_
-#define UQM_WEAPON_H_
+#ifndef _WEAPON_H
+#define _WEAPON_H
 
 #include "element.h"
 #include "libs/gfxlib.h"
@@ -57,5 +57,5 @@ extern void Untarget (ELEMENT *ElementPtr);
 extern FRAME ModifySilhouette (ELEMENT *ElementPtr, STAMP *modify_stamp,
 		BYTE modify_flags);
 
-#endif /* UQM_WEAPON_H_ */
+#endif /* _WEAPON_H */
 

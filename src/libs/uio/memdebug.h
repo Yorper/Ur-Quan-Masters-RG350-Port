@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef LIBS_UIO_MEMDEBUG_H_
-#define LIBS_UIO_MEMDEBUG_H_
+#ifndef _MEMDEBUG_H
+#define _MEMDEBUG_H
 
 #include <stdio.h>
 #include "uioport.h"
@@ -93,5 +93,5 @@ void uio_MemDebug_printPointers(FILE *out);
 #define uio_MemDebug_debugUnref(type, pointer) \
 	uio_MemDebug_logUnref(uio_MemDebug_LogType_ ## type, pointer)
 
-#endif  /* LIBS_UIO_MEMDEBUG_H_ */
+#endif  /* _MEMDEBUG_H */
 

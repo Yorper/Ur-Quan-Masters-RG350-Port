@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef LIBS_UIO_UIOUTILS_H_
-#define LIBS_UIO_UIOUTILS_H_
+#ifndef _UIOUTILS_H
+#define _UIOUTILS_H
 
 #include <time.h>
 
@@ -88,5 +88,5 @@ minu(unsigned int i1, unsigned int i2) {
 }
 
 
-#endif  /* LIBS_UIO_UIOUTILS_H_ */
+#endif  /* _UIOUTILS_H */
 

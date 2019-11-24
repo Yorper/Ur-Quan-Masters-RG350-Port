@@ -17,8 +17,8 @@
 /* By Serge van den Boom, 2002-09-12
  */
 
-#ifndef LIBS_TIME_SDL_SDLTIME_H_
-#define LIBS_TIME_SDL_SDLTIME_H_
+#ifndef _SDLTIME_H
+#define _SDLTIME_H
 
 #include "port.h"
 #include SDL_INCLUDE(SDL.h)
@@ -31,5 +31,5 @@ extern Uint32 SDLWrapper_GetTimeCounter (void);
 		SDLWrapper_GetTimeCounter ()
 
 
-#endif  /* LIBS_TIME_SDL_SDLTIME_H_ */
+#endif  /* _SDLTIME_H */
 

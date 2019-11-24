@@ -1,0 +1,4 @@
+#!/bin/sh
+# Wrapper script for starting The Ur-Quan Masters
+exec "/mnt/The Ur-Quan Masters/lib/uqm/uqm" "--contentdir=/mnt/The Ur-Quan Masters/share/uqm/content" "$@"
+

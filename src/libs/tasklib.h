@@ -21,8 +21,8 @@
  * processes.  They are built on top of threads, but add the ability to
  * modify a "state" variable to pass messages back and forth. */
 
-#ifndef LIBS_TASKLIB_H_
-#define LIBS_TASKLIB_H_
+#ifndef _TASKLIB_H
+#define _TASKLIB_H
 
 #include "libs/threadlib.h"
 

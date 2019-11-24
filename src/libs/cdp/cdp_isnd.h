@@ -19,8 +19,8 @@
  * CDP Sound Interface 
  */
 
-#ifndef LIBS_CDP_CDP_ISND_H_
-#define LIBS_CDP_CDP_ISND_H_
+#ifndef _CDPISND_H
+#define _CDPISND_H
 
 #include "types.h"
 #include "libs/sound/sound.h"
@@ -40,4 +40,4 @@ typedef struct
 typedef cdp_Itf_SoundVtbl_v1 cdp_Itf_SoundVtbl;
 typedef cdp_Itf_SoundVtbl    cdp_Itf_Sound;
 
-#endif  /* LIBS_CDP_CDP_ISND_H_ */
+#endif  /* _CDPISND_H */

@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef LIBS_NETWORK_NETMANAGER_NDESC_H_
-#define LIBS_NETWORK_NETMANAGER_NDESC_H_
+#ifndef _NDESC_H
+#define _NDESC_H
 
 #include "types.h"
 
@@ -77,6 +77,6 @@ void NetDescriptor_setCloseCallback(NetDescriptor *nd,
 		NetDescriptor_CloseCallback callback);
 
 
-#endif  /* LIBS_NETWORK_NETMANAGER_NDESC_H_ */
+#endif  /* _NDESC_H */
 
 

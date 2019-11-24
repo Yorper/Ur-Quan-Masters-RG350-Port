@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef UQM_SUPERMELEE_NETPLAY_CHECKSUM_H_
-#define UQM_SUPERMELEE_NETPLAY_CHECKSUM_H_
+#ifndef _CHECKSUM_H
+#define _CHECKSUM_H
 
 
 #include "types.h"
@@ -88,6 +88,6 @@ void addRemoteChecksum(NetConnection *conn, BattleFrameCounter frameNr,
 		Checksum checksum);
 bool verifyChecksums(BattleFrameCounter frameNr);
 
-#endif  /* UQM_SUPERMELEE_NETPLAY_CHECKSUM_H_ */
+#endif  /* _CHECKSUM_H */
 
 

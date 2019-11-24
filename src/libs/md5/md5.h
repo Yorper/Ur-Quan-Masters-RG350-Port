@@ -19,8 +19,8 @@
    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
   */
 
-#ifndef LIBS_MD5_MD5_H_
-#define LIBS_MD5_MD5_H_ 1
+#ifndef _MD5_H
+#define _MD5_H 1
 
 #include <stdio.h>
 

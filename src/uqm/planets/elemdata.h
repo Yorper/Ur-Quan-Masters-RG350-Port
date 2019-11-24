@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_PLANETS_ELEMDATA_H_
-#define UQM_PLANETS_ELEMDATA_H_
+#ifndef _ELEMDATA_H
+#define _ELEMDATA_H
 
 #include "libs/compiler.h"
 
@@ -205,5 +205,5 @@ enum
 
 extern const BYTE *Elements;
 
-#endif /* UQM_PLANETS_ELEMDATA_H_ */
+#endif /* _ELEMDATA_H */
 

@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef UQM_SUPERMELEE_NETPLAY_NETOPTIONS_H_
-#define UQM_SUPERMELEE_NETPLAY_NETOPTIONS_H_
+#ifndef _NETOPTIONS_H
+#define _NETOPTIONS_H
 
 #include "types.h"
 
@@ -45,7 +45,7 @@ typedef struct {
 extern NetplayOptions netplayOptions;
 
 
-#endif  /* UQM_SUPERMELEE_NETPLAY_NETOPTIONS_H_ */
+#endif  /* _NETOPTIONS_H */
 
 
 

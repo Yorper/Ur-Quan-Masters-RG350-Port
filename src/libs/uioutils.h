@@ -18,10 +18,10 @@
  *
  */
 
-#ifndef LIBS_UIOUTILS_H_
-#define LIBS_UIOUTILS_H_
+#ifndef _UIOUTILS_H
+#define _UIOUTILS_H
 
 #include "uio/utils.h"
 
-#endif  /* LIBS_UIOUTILS_H_ */
+#endif  /* _UIOUTILS_H */
 

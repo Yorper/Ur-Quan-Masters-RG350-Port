@@ -16,10 +16,10 @@
  *
  */
 
-#ifndef LIBS_MD5_H_
-#define LIBS_MD5_H_
+#ifndef _LIB_MD5_H
+#define _LIB_MD5_H
 
 #include "md5/md5.h"
 
-#endif  /* LIBS_MD5_H_ */
+#endif  /* _LIB_MD5_H */
 

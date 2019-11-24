@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_MENUSTAT_H_
-#define UQM_MENUSTAT_H_
+#ifndef _MENUSTAT_H
+#define _MENUSTAT_H
 
 #include "libs/gfxlib.h"
 #include "libs/sndlib.h"
@@ -120,5 +120,5 @@ enum
 extern BOOLEAN DoMenuChooser (MENU_STATE *pMS, BYTE BaseState);
 extern void DrawMenuStateStrings (BYTE beg_index, SWORD NewState);
 
-#endif /* UQM_MENUSTAT_H_ */
+#endif /* _MENUSTAT_H */
 

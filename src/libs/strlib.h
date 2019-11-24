@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_STRLIB_H_
-#define LIBS_STRLIB_H_
+#ifndef _STRLIB_H
+#define _STRLIB_H
 
 #include "libs/compiler.h"
 #include "port.h"
@@ -67,5 +67,5 @@ extern STRINGPTR GetStringTimeStamp (STRING String);
 #define UNICHAR_BULLET        0x2022
 #define STR_BULLET          "\xE2\x80\xA2"
 
-#endif /* LIBS_STRLIB_H_ */
+#endif /* _STRLIB_H */
 

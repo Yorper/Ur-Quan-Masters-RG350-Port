@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_RESOURCE_INDEX_H_
-#define LIBS_RESOURCE_INDEX_H_
+#ifndef _INDEX_H
+#define _INDEX_H
 
 #include <stdio.h>
 #include "libs/reslib.h"
@@ -47,5 +47,5 @@ struct resource_index_desc
 	size_t numRes;
 };
 
-#endif /* LIBS_RESOURCE_INDEX_H_ */
+#endif /* _INDEX_H */
 

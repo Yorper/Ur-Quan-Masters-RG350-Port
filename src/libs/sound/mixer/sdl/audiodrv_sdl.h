@@ -17,8 +17,8 @@
 /* SDL audio driver
  */
 
-#ifndef LIBS_SOUND_MIXER_SDL_AUDIODRV_SDL_H_
-#define LIBS_SOUND_MIXER_SDL_AUDIODRV_SDL_H_
+#ifndef _AUDIODRV_SDL_H
+#define _AUDIODRV_SDL_H
 
 #include "port.h"
 #include "libs/sound/sound.h"
@@ -63,4 +63,4 @@ void mixSDL_BufferData (audio_Object bufobj, uint32 format, void* data,
 		uint32 size, uint32 freq);
 
 
-#endif /* LIBS_SOUND_MIXER_SDL_AUDIODRV_SDL_H_ */
+#endif /* _AUDIODRV_SDL_H */

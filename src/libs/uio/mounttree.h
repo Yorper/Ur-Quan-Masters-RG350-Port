@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef LIBS_UIO_MOUNTTREE_H_
-#define LIBS_UIO_MOUNTTREE_H_
+#ifndef _MOUNTTREE_H
+#define _MOUNTTREE_H
 
 #include <stdio.h>
 #include "mount.h"
@@ -200,5 +200,5 @@ uio_mountInfoIsReadOnly(uio_MountInfo *mountInfo) {
 
 #endif  /* uio_INTERNAL */
 
-#endif  /* LIBS_UIO_MOUNTTREE_H_ */
+#endif  /* _MOUNTTREE_H */
 

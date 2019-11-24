@@ -33,6 +33,6 @@
 		UQM_MAJOR_VERSION_S "." UQM_MINOR_VERSION_S "." UQM_PATCH_VERSION_S \
 		UQM_EXTRA_VERSION
 
-#define UQM_SVN_REVISION "$Revision$"
+#define UQM_SVN_REVISION "$Revision: 3628 $"
 
 #endif

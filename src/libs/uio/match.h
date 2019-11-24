@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef LIBS_UIO_MATCH_H_
-#define LIBS_UIO_MATCH_H_
+#ifndef _MATCH_H
+#define _MATCH_H
 
 typedef struct match_MatchContext match_MatchContext;
 
@@ -178,5 +178,5 @@ void match_freeRegex(match_RegexContext *context);
 
 #endif  /* match_INTERNAL */
 
-#endif  /* LIBS_UIO_MATCH_H_ */
+#endif  /* _MATCH_H */
 

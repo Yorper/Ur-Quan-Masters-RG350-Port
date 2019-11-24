@@ -18,8 +18,8 @@
  * Internals
  */
 
-#ifndef LIBS_SOUND_MIXER_MIXERINT_H_
-#define LIBS_SOUND_MIXER_MIXERINT_H_
+#ifndef _MIXERINT_H
+#define _MIXERINT_H
 
 #include "port.h"
 #include "types.h"
@@ -107,4 +107,4 @@ static inline bool mixer_SourceGetFakeSample (mixer_Source *src,
 		float *psamp, bool left);
 static inline uint32 mixer_SourceAdvance (mixer_Source *src, bool left);
 
-#endif /* LIBS_SOUND_MIXER_MIXERINT_H_ */
+#endif /* _MIXERINT_H */

@@ -16,14 +16,14 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_MATHLIB_H_
-#define LIBS_MATHLIB_H_
+#ifndef _MATHLIB_H
+#define _MATHLIB_H
 
 #include "libs/compiler.h"
 #include "math/random.h"
 
 extern COUNT square_root (DWORD value);
 
-#endif /* LIBS_MATHLIB_H_ */
+#endif /* _MATHLIB_H */
 
 

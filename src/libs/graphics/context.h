@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_GRAPHICS_CONTEXT_H_
-#define LIBS_GRAPHICS_CONTEXT_H_
+#ifndef _CONTEXT_H
+#define _CONTEXT_H
 
 #include "tfb_draw.h"
 #include "libs/memlib.h"
@@ -143,5 +143,5 @@ extern GRAPHICS_STATUS _GraphicsStatusFlags;
 BOOLEAN GetContextValidRect (RECT *pValidRect, POINT *origin);
 extern void FixContextFontEffect (void);
 
-#endif /* LIBS_GRAPHICS_CONTEXT_H_ */
+#endif /* _CONTEXT_H */
 

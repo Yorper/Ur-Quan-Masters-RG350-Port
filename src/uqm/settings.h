@@ -14,8 +14,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef UQM_SETTINGS_H_
-#define UQM_SETTINGS_H_
+#ifndef _SETTINGS_H
+#define _SETTINGS_H
 
 #include "libs/sndlib.h"
 
@@ -30,5 +30,5 @@ extern void PlaySoundEffect (SOUND S, COUNT Channel, SoundPosition Pos,
 		void *PositionalObject, BYTE Priority);
 
 
-#endif  /* UQM_SETTINGS_H_ */
+#endif  /* _SETTINGS_H */
 

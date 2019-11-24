@@ -15,8 +15,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef ILWRATH_STRINGS_H
-#define ILWRATH_STRINGS_H
+#ifndef _STRINGS_H
+#define _STRINGS_H
 
 enum
 {

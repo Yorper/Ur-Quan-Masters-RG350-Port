@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef LIBS_UIO_GETINT_H_
-#define LIBS_UIO_GETINT_H_
+#ifndef _GETINT_H
+#define _GETINT_H
 
 /* All these functions return true on success, or false on failure */
 
@@ -137,5 +137,5 @@ uio_getS32BE(uio_Stream *stream, uio_sint32 *result) {
 }
 
 
-#endif  /* LIBS_UIO_GETINT_H_ */
+#endif  /* _GETINT_H */
 

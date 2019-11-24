@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef LIBS_CALLBACK_ALARM_H_
-#define LIBS_CALLBACK_ALARM_H_
+#ifndef _ALARM_H
+#define _ALARM_H
 
 #include "port.h"
 #include "types.h"
@@ -50,5 +50,5 @@ void Alarm_remove(Alarm *alarm);
 void Alarm_process(void);
 Uint32 Alarm_timeBeforeNextMs(void);
 
-#endif  /* LIBS_CALLBACK_ALARM_H_ */
+#endif  /* _ALARM_H */
 

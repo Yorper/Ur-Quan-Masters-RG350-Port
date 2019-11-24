@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_MEMLIB_H_
-#define LIBS_MEMLIB_H_
+#ifndef _MEMLIB_H
+#define _MEMLIB_H
 
 #include "types.h"
 
@@ -29,5 +29,5 @@ extern void HFree (void *p);
 extern void *HCalloc (int size);
 extern void *HRealloc (void *p, int size);
 
-#endif /* LIBS_MEMLIB_H_ */
+#endif /* _MEMLIB_H */
 

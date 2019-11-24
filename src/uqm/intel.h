@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_INTEL_H_
-#define UQM_INTEL_H_
+#ifndef _INTEL_H
+#define _INTEL_H
 
 #include "battlecontrols.h"
 #include "controls.h"
@@ -74,6 +74,6 @@ extern BOOLEAN ThrustShip (ELEMENT *ShipPtr, COUNT angle);
 #define AWESOME_RATING (BYTE)(1 << 6)
 
 
-#endif /* UQM_INTEL_H_ */
+#endif /* _INTEL_H */
 
 

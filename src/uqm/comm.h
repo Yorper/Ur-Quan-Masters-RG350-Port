@@ -14,8 +14,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_COMM_H_
-#define UQM_COMM_H_
+#ifndef _COMM_H
+#define _COMM_H
 
 #include "globdata.h"
 #include "units.h"
@@ -131,6 +131,6 @@ extern void SetCommIntroMode (CommIntroMode, TimeCount howLong);
 
 extern void EnableTalkingAnim (BOOLEAN enable);
 
-#endif  /* UQM_COMM_H_ */
+#endif  /* _COMM_H */
 
 

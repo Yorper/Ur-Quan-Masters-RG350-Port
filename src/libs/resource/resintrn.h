@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_RESOURCE_RESINTRN_H_
-#define LIBS_RESOURCE_RESINTRN_H_
+#ifndef _RESINTRN_H
+#define _RESINTRN_H
 
 #include <string.h>
 #include "libs/reslib.h"
@@ -30,5 +30,5 @@ void _set_current_index_header (RESOURCE_INDEX newResourceIndex);
 RESOURCE_INDEX _get_current_index_header (void);
 
 
-#endif /* LIBS_RESOURCE_RESINTRN_H_ */
+#endif /* _RESINTRN_H */
 

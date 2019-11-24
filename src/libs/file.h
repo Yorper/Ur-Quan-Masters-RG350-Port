@@ -16,8 +16,8 @@
 
 // Contains file handling code
 
-#ifndef LIBS_FILE_H_
-#define LIBS_FILE_H_
+#ifndef _FILE_H
+#define _FILE_H
 
 #include "port.h"
 #include "libs/uio.h"
@@ -83,5 +83,5 @@ static inline int isDriveLetter(int c)
 }
 #endif  /* HAVE_DRIVE_LETTERS */
 
-#endif  /* LIBS_FILE_H_ */
+#endif  /* _FILE_H */
 

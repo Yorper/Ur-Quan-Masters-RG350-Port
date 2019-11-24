@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef LIBS_UIO_GPHYS_H_
-#define LIBS_UIO_GPHYS_H_
+#ifndef _GPHYS_H
+#define _GPHYS_H
 
 #include "uioport.h"
 
@@ -309,5 +309,5 @@ uio_GPFile_unref(uio_GPFile *gPFile) {
 }
 
 
-#endif  /* LIBS_UIO_GPHYS_H_ */
+#endif  /* _GPHYS_H */
 

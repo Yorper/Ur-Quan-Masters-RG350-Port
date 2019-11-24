@@ -20,7 +20,7 @@
 
 /*==============================================================================
 
-  $Id$
+  $Id: munitrk.c 2412 2006-08-18 18:37:39Z avolkov $
 
   All routines dealing with the manipulation of UNITRK streams
 

@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_HYPER_H_
-#define UQM_HYPER_H_
+#ifndef _HYPER_H
+#define _HYPER_H
 
 #include "element.h"
 #include "units.h"
@@ -79,5 +79,5 @@ extern BOOLEAN hyper_transition (ELEMENT *ElementPtr);
 extern void HyperspaceMenu (void);
 extern void SaveSisHyperState (void);
 
-#endif /* UQM_HYPER_H_ */
+#endif /* _HYPER_H */
 

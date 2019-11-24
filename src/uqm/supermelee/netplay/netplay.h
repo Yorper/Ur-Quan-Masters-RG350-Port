@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#if !defined(UQM_SUPERMELEE_NETPLAY_NETPLAY_H_) && defined(NETPLAY)
-#define UQM_SUPERMELEE_NETPLAY_NETPLAY_H_
+#if !defined(_NETPLAY_H) && defined(NETPLAY)
+#define _NETPLAY_H
 
 // NETPLAY can either be unset (in which case we will never get here)
 // NETPLAY_FULL, or NETPLAY_IPV4 (disables IPv6)
@@ -73,5 +73,5 @@
 #endif
 
 
-#endif  /* UQM_SUPERMELEE_NETPLAY_NETPLAY_H_ */
+#endif  /* _NETPLAY_H */
 

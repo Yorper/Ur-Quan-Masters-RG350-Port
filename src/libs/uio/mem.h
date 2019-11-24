@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef LIBS_UIO_MEM_H_
-#define LIBS_UIO_MEM_H_
+#ifndef _MEM_H
+#define _MEM_H
 
 #include <stdlib.h>
 #include <string.h>

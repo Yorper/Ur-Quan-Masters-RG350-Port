@@ -148,6 +148,7 @@ AttemptColorDepth (int flags, int width, int height, int bpp)
 	}
 	else
 	{
+		SDL_ShowCursor(SDL_DISABLE);
 		log_add (log_Info, "Set the resolution to: %ix%ix%i"
 				" (surface reports %ix%ix%i)",
 				width, height, bpp,			 

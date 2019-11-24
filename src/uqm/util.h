@@ -14,8 +14,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_UTIL_H_
-#define UQM_UTIL_H_
+#ifndef _UTIL_H
+#define _UTIL_H
 
 #include "libs/compiler.h"
 #include "libs/gfxlib.h"
@@ -28,5 +28,5 @@ extern DWORD SeedRandomNumbers (void);
 // saveRect can be NULL to save the entire context frame
 extern STAMP SaveContextFrame (const RECT *saveRect);
 
-#endif  /* UQM_UTIL_H_ */
+#endif  /* _UTIL_H */
 

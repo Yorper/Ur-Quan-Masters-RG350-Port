@@ -18,14 +18,14 @@
 
 #ifdef NETPLAY
 
-#ifndef UQM_CNCTDLG_H_
-#define UQM_CNCTDLG_H_
+#ifndef _CNCTDLG_H
+#define _CNCTDLG_H
 
 #include "libs/compiler.h"
 
 BOOLEAN MeleeConnectDialog (int side);
 
-#endif /* UQM_CNCTDLG_H_ */
+#endif /* _CNCTDLG_H */
 
 #endif /* NETPLAY */
 

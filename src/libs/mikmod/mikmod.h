@@ -20,14 +20,14 @@
 
 /*==============================================================================
 
-  $Id$
+  $Id: mikmod.h 2412 2006-08-18 18:37:39Z avolkov $
 
   MikMod sound library include file
 
 ==============================================================================*/
 
-#ifndef LIBS_MIKMOD_MIKMOD_H_
-#define LIBS_MIKMOD_MIKMOD_H_
+#ifndef _MIKMOD_H_
+#define _MIKMOD_H_
 
 #include <stdio.h>
 #include <stdlib.h>

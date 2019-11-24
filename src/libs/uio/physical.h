@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef LIBS_UIO_PHYSICAL_H_
-#define LIBS_UIO_PHYSICAL_H_
+#ifndef _PHYSICAL_H
+#define _PHYSICAL_H
 
 #ifndef uio_INTERNAL_PHYSICAL
 typedef void *uio_PRootExtra;
@@ -87,6 +87,6 @@ void uio_PRoot_unrefHandle(uio_PRoot *pRoot);
 void uio_PRoot_refMount(uio_PRoot *pRoot);
 void uio_PRoot_unrefMount(uio_PRoot *pRoot);
 
-#endif  /* LIBS_UIO_PHYSICAL_H_  */
+#endif  /* _PHYSICAL_H  */
 
 

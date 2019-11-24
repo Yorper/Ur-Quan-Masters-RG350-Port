@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef LIBS_NETWORK_CONNECT_CONNECT_H_
-#define LIBS_NETWORK_CONNECT_CONNECT_H_
+#ifndef _CONNECT_CONNECT_H
+#define _CONNECT_CONNECT_H
 
 
 typedef struct ConnectFlags ConnectFlags;
@@ -106,6 +106,6 @@ void ConnectState_close(ConnectState *connectState);
 void ConnectState_setExtra(ConnectState *connectState, void *extra);
 void *ConnectState_getExtra(ConnectState *connectState);
 
-#endif  /* LIBS_NETWORK_CONNECT_CONNECT_H_ */
+#endif  /* _CONNECT_CONNECT_H */
 
 

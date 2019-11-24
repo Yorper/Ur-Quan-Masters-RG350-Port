@@ -18,8 +18,8 @@
  *
  */
 
-#ifndef LIBS_UIO_CHARHASHTABLE_H_
-#define LIBS_UIO_CHARHASHTABLE_H_
+#ifndef _CHARHASHTABLE_H
+#define _CHARHASHTABLE_H
 
 
 #define HASHTABLE_(identifier) CharHashTable ## _ ## identifier

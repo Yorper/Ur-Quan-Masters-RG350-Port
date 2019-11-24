@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_GRAPHICS_WIDGETS_H_
-#define LIBS_GRAPHICS_WIDGETS_H_
+#ifndef _WIDGETS_H
+#define _WIDGETS_H
 
 #include "libs/gfxlib.h"
 
@@ -219,4 +219,4 @@ void Widget_Slider_DrawValue (WIDGET_SLIDER *self, int x, int y);
 /* Other implementations will need these values */
 extern WIDGET *widget_focus;
 
-#endif /* LIBS_GRAPHICS_WIDGETS_H_ */
+#endif /* _WIDGETS_H */

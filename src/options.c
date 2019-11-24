@@ -447,6 +447,78 @@ mountAddonDir (uio_Repository *repository, uio_MountHandle *contentMountHandle,
 
 	uio_DirList_free (availableAddons);
 	uio_closeDir (addonsDir);
+
+
+	//Stuff for testing useraddons folder
+	addonsDir = uio_openDirRelative (contentDir, "addonshome", 0);
+	if (addonsDir == NULL)
+	{	// No addon dir found.
+		log_add (log_Warning, "Warning: There's no 'addons' "
+				"directory in the '~/.uqm/' directory;\n\t'--addon' ");
+		return;
+	}
+
+	mountDirZips (addonsDir, "addons", uio_MOUNT_BELOW, mountHandle);
+			
+	availableAddons = uio_getDirList (addonsDir, "", "", match_MATCH_PREFIX);
+	if (availableAddons != NULL)
+	{
+		int i, count;
+		
+		// count the actual addon dirs
+		count = 0;
+		for (i = 0; i < availableAddons->numNames; ++i)
+		{
+			struct stat sb;
+
+			if (availableAddons->names[i][0] == '.' ||
+					uio_stat (addonsDir, availableAddons->names[i], &sb) == -1
+					|| !S_ISDIR (sb.st_mode))
+			{	// this dir entry ignored
+				availableAddons->names[i] = NULL;
+				continue;
+			}
+			++count;
+		}
+		log_add (log_Info, "%d available addon pack%s in ~/.uqm.", count,
+				count == 1 ? "" : "s");
+
+		count = 0;
+		for (i = 0; i < availableAddons->numNames; ++i)
+		{
+			static char mountname[128];
+			uio_DirHandle *addonDir;
+			const char *addon = availableAddons->names[i];
+			
+			if (!addon)
+				continue;
+
+			++count;
+			log_add (log_Info, "    %d. %s", count, addon);
+		
+			snprintf(mountname, 128, "addons/%s", addon);
+			mountname[127]=0;
+
+			addonDir = uio_openDirRelative (addonsDir, addon, 0);
+			if (addonDir == NULL)
+			{
+				log_add (log_Warning, "Warning: directory 'addonshome/%s' "
+					 "not found; addon skipped.", addon);
+				continue;
+			}
+			mountDirZips (addonDir, mountname, uio_MOUNT_BELOW, mountHandle);
+			uio_closeDir (addonDir);
+		}
+	}
+	else
+	{
+		log_add (log_Info, "0 available addon packs in ~/.uqm.");
+	}
+
+	uio_DirList_free (availableAddons);
+	uio_closeDir (addonsDir);
+
+
 }
 
 static void

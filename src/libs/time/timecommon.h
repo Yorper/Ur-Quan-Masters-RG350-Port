@@ -17,8 +17,8 @@
 /* By Serge van den Boom, 2002-09-12
  */
 
-#ifndef LIBS_TIME_TIMECOMMON_H_
-#define LIBS_TIME_TIMECOMMON_H_
+#ifndef _TIMECOMMON_H
+#define _TIMECOMMON_H
 
 
 #if TIMELIB == SDL
@@ -26,5 +26,5 @@
 #endif  /* TIMELIB == SDL */
 
 
-#endif  /* LIBS_TIME_TIMECOMMON_H_ */
+#endif  /* _TIMECOMMON_H */
 

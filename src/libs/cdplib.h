@@ -16,9 +16,9 @@
  *
  */
 
-#ifndef LIBS_CDPLIB_H_
-#define LIBS_CDPLIB_H_
+#ifndef _CDPLIB_H
+#define _CDPLIB_H
 
 #include "cdp/cdp.h"
 
-#endif  /* LIBS_CDPLIB_H_ */
+#endif  /* _CDPLIB_H */

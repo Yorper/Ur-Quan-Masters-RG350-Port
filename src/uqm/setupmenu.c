@@ -69,7 +69,7 @@ static void clear_control (WIDGET_CONTROLENTRY *widget);
 #ifdef HAVE_OPENGL
 #define RES_OPTS 4
 #else
-#define RES_OPTS 2
+#define RES_OPTS 1
 #endif
 
 #define MENU_COUNT          8
@@ -104,7 +104,7 @@ static HANDLER button_handlers[BUTTON_COUNT] = {
 	do_keyconfig };
 
 static int menu_sizes[MENU_COUNT] = {
-	7, 5, 7, 9, 2, 5,
+	5, 5, 7, 9, 2, 5,
 #ifdef HAVE_OPENGL
 	5,
 #else
@@ -118,10 +118,10 @@ static int menu_bgs[MENU_COUNT] = { 0, 1, 1, 2, 3, 1, 2, 1 };
 /* These refer to uninitialized widgets, but that's OK; we'll fill
  * them in before we touch them */
 static WIDGET *main_widgets[] = {
-	(WIDGET *)(&buttons[2]),
+	//(WIDGET *)(&buttons[2]),
 	(WIDGET *)(&buttons[3]),
 	(WIDGET *)(&buttons[4]),
-	(WIDGET *)(&buttons[5]),
+	//(WIDGET *)(&buttons[5]),
 	(WIDGET *)(&buttons[6]),
 	(WIDGET *)(&buttons[7]),
 	(WIDGET *)(&buttons[0]) };

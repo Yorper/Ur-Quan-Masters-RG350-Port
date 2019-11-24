@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_INPLIB_H_
-#define LIBS_INPLIB_H_
+#ifndef _INPLIB_H
+#define _INPLIB_H
 
 #include <stddef.h>
 #include "libs/compiler.h"
@@ -59,5 +59,5 @@ void SaveKeyConfiguration (uio_DirHandle *path, const char *fname);
 
 void BeginInputFrame (void);
 
-#endif /* LIBS_INPLIB_H_ */
+#endif /* _INPLIB_H */
 

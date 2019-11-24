@@ -16,11 +16,11 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef LIBS_NETWORK_NETMANAGER_NETMANAGER_BSD_H_
-#define LIBS_NETWORK_NETMANAGER_NETMANAGER_BSD_H_
+#ifndef _NETMANAGER_BSD_H
+#define _NETMANAGER_BSD_H
 
 typedef struct SocketManagementDataBsd SocketManagementDataBsd;
 typedef SocketManagementDataBsd SocketManagementData;
 
-#endif  /* LIBS_NETWORK_NETMANAGER_NETMANAGER_BSD_H_ */
+#endif  /* _NETMANAGER_BSD_H */
 

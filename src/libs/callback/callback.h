@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef LIBS_CALLBACK_CALLBACK_H_
-#define LIBS_CALLBACK_CALLBACK_H_
+#ifndef _CALLBACK_H
+#define _CALLBACK_H
 
 #include "types.h"
 
@@ -37,5 +37,5 @@ CallbackID Callback_add(CallbackFunction callback, CallbackArg arg);
 bool Callback_remove(CallbackID id);
 void Callback_process(void);
 
-#endif  /* LIBS_CALLBACK_CALLBACK_H_ */
+#endif  /* _CALLBACK_H */
 

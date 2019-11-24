@@ -18,10 +18,10 @@
  *
  */
 
-#ifndef LIBS_UIO_H_
-#define LIBS_UIO_H_
+#ifndef _UIO_H
+#define _UIO_H
 
 #include "uio/io.h"
 
-#endif  /* LIBS_UIO_H_ */
+#endif  /* _UIO_H */
 

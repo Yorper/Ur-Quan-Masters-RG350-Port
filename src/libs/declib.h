@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_DECLIB_H_
-#define LIBS_DECLIB_H_
+#ifndef _DECLIB_H
+#define _DECLIB_H
 
 #include "libs/compiler.h"
 typedef struct _LZHCODE_DESC* DECODE_REF;
@@ -45,4 +45,4 @@ extern COUNT cread (void *pStr, COUNT size, COUNT count,
 extern COUNT cwrite (const void *pStr, COUNT size, COUNT count,
 		DECODE_REF DecodeRef);
 
-#endif /* LIBS_DECLIB_H_ */
+#endif /* _DECLIB_H */

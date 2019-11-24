@@ -17,8 +17,8 @@
 /* OpenAL audio driver
  */
 
-#ifndef LIBS_SOUND_OPENAL_AUDIODRV_OPENAL_H_
-#define LIBS_SOUND_OPENAL_AUDIODRV_OPENAL_H_
+#ifndef _AUDIODRV_OPENAL_H
+#define _AUDIODRV_OPENAL_H
 
 #include "config.h"
 #include "libs/sound/sound.h"
@@ -84,4 +84,4 @@ void openAL_BufferData (audio_Object bufobj, uint32 format, void* data,
 		uint32 size, uint32 freq);
 
 
-#endif /* LIBS_SOUND_OPENAL_AUDIODRV_OPENAL_H_ */
+#endif /* _AUDIODRV_OPENAL_H */

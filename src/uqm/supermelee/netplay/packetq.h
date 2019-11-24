@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef UQM_SUPERMELEE_NETPLAY_PACKETQ_H_
-#define UQM_SUPERMELEE_NETPLAY_PACKETQ_H_
+#ifndef _PACKETQ_H
+#define _PACKETQ_H
 
 typedef struct PacketQueue PacketQueue;
 

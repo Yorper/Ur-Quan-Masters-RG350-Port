@@ -70,9 +70,9 @@ void TFB_GL_UploadTransitionScreen (void);
 #endif
 
 /* This is from Win32's <ctype.h> */
-#ifndef LIBS_GRAPHICS_SDL_OPENGL_H_
+#ifndef _WCHAR_T_DEFINED
 typedef unsigned short wchar_t;
-#define LIBS_GRAPHICS_SDL_OPENGL_H_
+#define _WCHAR_T_DEFINED
 #endif
 
 #include "GL/glu.h"

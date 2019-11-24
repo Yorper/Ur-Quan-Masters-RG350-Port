@@ -19,8 +19,8 @@
  * CDP common internal definitions
  */
 
-#ifndef LIBS_CDP_CDPINT_H_
-#define LIBS_CDP_CDPINT_H_
+#ifndef _CDPINT_H
+#define _CDPINT_H
 
 #include "cdpapi.h"
 #include "cdp_imem.h"

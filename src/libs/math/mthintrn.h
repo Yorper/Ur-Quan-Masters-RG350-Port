@@ -16,10 +16,10 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef LIBS_MATH_MTHINTRN_H_
-#define LIBS_MATH_MTHINTRN_H_
+#ifndef _MTHINTRN_H
+#define _MTHINTRN_H
 
 #include "libs/mathlib.h"
 
-#endif /* LIBS_MATH_MTHINTRN_H_ */
+#endif /* _MTHINTRN_H */
 

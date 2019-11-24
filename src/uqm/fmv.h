@@ -14,8 +14,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef UQM_FMV_H_
-#define UQM_FMV_H_
+#ifndef _FMV_H
+#define _FMV_H
 
 #include "libs/compiler.h"
 #include "libs/sndlib.h"
@@ -29,5 +29,5 @@ extern void DoShipSpin (COUNT index, MUSIC_REF hMusic);
 
 extern BOOLEAN ShowPresentation (RESOURCE presentation);
 
-#endif  /* UQM_FMV_H_ */
+#endif  /* _FMV_H */
 

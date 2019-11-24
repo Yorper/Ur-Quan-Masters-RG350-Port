@@ -20,7 +20,7 @@
 
 /*==============================================================================
 
-  $Id$
+  $Id: load_mod.c 2421 2006-08-19 00:36:21Z avolkov $
 
   Generic MOD loader (Protracker, StarTracker, FastTracker, etc)
 

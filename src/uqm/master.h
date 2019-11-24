@@ -14,8 +14,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef UQM_MASTER_H_
-#define UQM_MASTER_H_
+#ifndef _MASTER_H
+#define _MASTER_H
 
 #include "races.h"
 #include "libs/compiler.h"
@@ -58,5 +58,5 @@ COUNT GetShipCostFromIndex (unsigned Index);
 FRAME GetShipIconsFromIndex (unsigned Index);
 FRAME GetShipMeleeIconsFromIndex (unsigned Index);
 
-#endif  /* UQM_MASTER_H_ */
+#endif  /* _MASTER_H */
 

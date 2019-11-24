@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef LIBS_NETWORK_CONNECT_LISTEN_H_
-#define LIBS_NETWORK_CONNECT_LISTEN_H_
+#ifndef _CONNECT_LISTEN_H
+#define _CONNECT_LISTEN_H
 
 typedef struct ListenFlags ListenFlags;
 typedef enum {
@@ -102,5 +102,5 @@ bool ListenState_decRef(ListenState *listenState);
 void ListenState_setExtra(ListenState *listenState, void *extra);
 void *ListenState_getExtra(ListenState *listenState);
 
-#endif  /* LIBS_NETWORK_CONNECT_LISTEN_H_ */
+#endif  /* _CONNECT_LISTEN_H */
 

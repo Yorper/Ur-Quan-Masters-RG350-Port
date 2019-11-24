@@ -20,7 +20,7 @@
 
 /*==============================================================================
 
-  $Id$
+  $Id: mlreg.c 2412 2006-08-18 18:37:39Z avolkov $
 
   Routine for registering all loaders in libmikmod for the current platform.
 

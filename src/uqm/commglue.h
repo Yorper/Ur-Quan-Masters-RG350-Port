@@ -16,8 +16,8 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-#ifndef UQM_COMMGLUE_H_
-#define UQM_COMMGLUE_H_
+#ifndef _COMMGLUE_H
+#define _COMMGLUE_H
 
 #include "globdata.h"
 #include "resinst.h"
@@ -154,5 +154,5 @@ extern LOCDATA* init_zoqfot_comm (void);
 
 extern LOCDATA* init_umgah_comm (void);
 
-#endif /* UQM_COMMGLUE_H_ */
+#endif /* _COMMGLUE_H */
 
